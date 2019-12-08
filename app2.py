@@ -26,7 +26,7 @@ Joe
 #course = "Python's course for beginner"
 another = course.upper()
 print(course, another)
-#print(len(course))
+print(len(course))
 #print(course.find('P'))
 #print(course.replace('beginner', 'Absolute begineers'))
 
