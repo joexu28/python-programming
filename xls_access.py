@@ -1,5 +1,5 @@
-import openpyxl as xl
-from openpyxl.chart import BarChart, Reference
+import openpyxl as xl           # alias of the package
+from openpyxl.chart import BarChart, Reference          # import from package.module Classes
 import os
 
 
@@ -25,7 +25,6 @@ def workbook_access(filename):
     sheet.add_chart(chart, 'e2')
 
     wb.save(filename_path)
-
 
 
 filenames = os.listdir("Python Tutorial Supplementary Materials")

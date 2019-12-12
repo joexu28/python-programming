@@ -19,7 +19,7 @@ greet_user1(last_name="Chur", first_name="Mary")    # keyword arguments
 print("Finish")
 
 def square(number):
-    return number * number
+    return number * number              # return value  (by default function returns NONE)
 
 
 result = square(3)

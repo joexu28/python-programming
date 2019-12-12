@@ -22,21 +22,23 @@ number_conversion = {
     "6": "Six",
     "7": "Seven",
     "8": "Eight",
-    "9": "Nine"
+#    "9": "Nine"
 }
 output = ""
 for digit in phone_number:
     output += number_conversion.get(digit, "!") + " "
+# "!" is set as a default value if user enters an invalid key
 print(output)
 
 message = input(">")
-words = message.split(" ")
+words = message.split(" ")           # " " space as delimiter   and words as list
+print(words)
 emojis = {
     ":)": "smile face",
     ":(": "sad face"
 }
 output =""
 for word in words:
-    output += emojis.get(word, word) + " "
+    output += emojis.get(word, word) + " "      # if "word" is not in the dictionary, simply set "word" as default value
 
 print(output)

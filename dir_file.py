@@ -2,6 +2,8 @@ from pathlib import Path
 
 path1 = Path("ecommerce")
 print(path1.exists())
+path2 = Path("ecommerce/testdir")
+print(path2.exists())
 
 path2 = Path()
 for file in path2.glob('*.py'):

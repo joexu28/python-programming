@@ -32,3 +32,8 @@ if L_K.upper() == 'L':
 elif L_K.upper() == 'K':
     weight = weight / 0.45
     print (f"your weight is {weight}Lbs")
+
+
+numbers = [5, 6, 9, 1, 2]
+numbers.sort()
+print(numbers)
