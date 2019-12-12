@@ -21,6 +21,10 @@ for x in numbers:
     for y in range(0, x):
         output += '*'
     print(output)
+numbers = [5, 2, 5, 2, 2]
+for x in numbers:
+    output='*' * x
+    print(output)
 
 numbers = [2, 2, 2, 2, 5]
 for x in numbers:
